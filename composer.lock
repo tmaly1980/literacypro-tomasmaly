@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "814610467bb7c07eff7ca57d6c12aab9",
-    "content-hash": "229ba775d0aaad8caa8e44b56acbfdf0",
+    "hash": "d656195aaf1d4e5ae9c8c8d7d4541d72",
+    "content-hash": "ce116b1b1b1d7b44d3c003735fdce6e6",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -60,6 +60,41 @@
                 "preload"
             ],
             "time": "2016-09-16 12:50:15"
+        },
+        {
+            "name": "components/font-awesome",
+            "version": "4.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/font-awesome.git",
+                "reference": "885308b939369d147bec93174722786bc2c4eedd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/font-awesome/zipball/885308b939369d147bec93174722786bc2c4eedd",
+                "reference": "885308b939369d147bec93174722786bc2c4eedd",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "styles": [
+                        "css/font-awesome.css"
+                    ],
+                    "files": [
+                        "css/font-awesome.min.css",
+                        "css/font-awesome.css.map",
+                        "fonts/*"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "OFL-1.1"
+            ],
+            "description": "The iconic font designed for use with Twitter Bootstrap.",
+            "time": "2016-10-25 10:56:23"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -305,6 +340,100 @@
                 "tokenizer"
             ],
             "time": "2016-12-07 09:37:55"
+        },
+        {
+            "name": "kyslik/column-sortable",
+            "version": "5.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kyslik/column-sortable.git",
+                "reference": "9a96bbd987d5c02db8a1a2893c54aa33c30b81a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kyslik/column-sortable/zipball/9a96bbd987d5c02db8a1a2893c54aa33c30b81a4",
+                "reference": "9a96bbd987d5c02db8a1a2893c54aa33c30b81a4",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "5.1.* || 5.2.* || 5.3.*",
+                "illuminate/support": "5.1.* || 5.2.* || 5.3.*",
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "orchestra/testbench": "3.3.*",
+                "phpunit/phpunit": "~5.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "Kyslik\\ColumnSortable\\": "src/ColumnSortable/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Martin Kiesel",
+                    "email": "martinkiesel@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Package for handling column sorting in Laravel 5.1, 5.2 and 5.3",
+            "keywords": [
+                "column",
+                "laravel",
+                "one-to-one",
+                "sort",
+                "sortable",
+                "sorting"
+            ],
+            "time": "2016-11-21 00:39:42"
+        },
+        {
+            "name": "laracasts/flash",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laracasts/flash.git",
+                "reference": "03eec812fd6ae948664ff51b4320785f6d15ee5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laracasts/flash/zipball/03eec812fd6ae948664ff51b4320785f6d15ee5d",
+                "reference": "03eec812fd6ae948664ff51b4320785f6d15ee5d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Laracasts\\Flash": "src/"
+                },
+                "files": [
+                    "src/Laracasts/Flash/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeffrey Way",
+                    "email": "jeffrey@laracasts.com"
+                }
+            ],
+            "description": "Easy flash notifications",
+            "time": "2016-07-11 20:46:02"
         },
         {
             "name": "laravel/framework",
@@ -838,6 +967,45 @@
                 "random"
             ],
             "time": "2016-11-07 23:38:38"
+        },
+        {
+            "name": "pendonl/laravel-fontawesome",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PendoNL/laravel-fontawesome.git",
+                "reference": "d5bca89375bc25ec08c7ec3885bc2ebbe5c13279"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PendoNL/laravel-fontawesome/zipball/d5bca89375bc25ec08c7ec3885bc2ebbe5c13279",
+                "reference": "d5bca89375bc25ec08c7ec3885bc2ebbe5c13279",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PendoNL\\LaravelFontAwesome\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joshua de Gier",
+                    "email": "info@pendo.nl"
+                }
+            ],
+            "description": "Laravel helper for FontAwesome icons",
+            "time": "2016-11-11 16:42:56"
         },
         {
             "name": "psr/log",
@@ -2533,16 +2701,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "4.0.3",
+            "version": "4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "903fd6318d0a90b4770a009ff73e4a4e9c437929"
+                "reference": "c14196e64a78570034afd0b7a9f3757ba71c2a0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/903fd6318d0a90b4770a009ff73e4a4e9c437929",
-                "reference": "903fd6318d0a90b4770a009ff73e4a4e9c437929",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/c14196e64a78570034afd0b7a9f3757ba71c2a0a",
+                "reference": "c14196e64a78570034afd0b7a9f3757ba71c2a0a",
                 "shasum": ""
             },
             "require": {
@@ -2592,7 +2760,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-11-28 16:00:31"
+            "time": "2016-12-20 15:22:42"
         },
         {
             "name": "phpunit/php-file-iterator",

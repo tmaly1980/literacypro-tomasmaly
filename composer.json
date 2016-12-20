@@ -6,8 +6,12 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+        "components/font-awesome": "^4.7",
+        "kyslik/column-sortable": "~5.0",
+        "laracasts/flash": "^2.0",
         "laravel/framework": "5.3.*",
         "laravelcollective/html": "^5.3",
+        "pendonl/laravel-fontawesome": "^1.0",
         "watson/bootstrap-form": "^1.0",
         "watson/validating": "^3.0"
     },

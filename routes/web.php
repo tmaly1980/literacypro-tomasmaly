@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', "BandController@index");
+// function () {
+//     return view('welcome');
+// });
+
+Route::resource("bands","BandController");
+Route::resource("albums","AlbumController");

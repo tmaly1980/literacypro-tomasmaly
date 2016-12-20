@@ -162,6 +162,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -177,6 +178,14 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+        App\Providers\HtmlServiceProvider::class, # Later.
+        Laralib\L5scaffold\GeneratorsServiceProvider::class,
+        Kyslik\ColumnSortable\ColumnSortableServiceProvider::class,
+        PendoNL\LaravelFontAwesome\LaravelFontAwesomeServiceProvider::class,
+
+        Watson\BootstrapForm\BootstrapFormServiceProvider::class,
+        Laracasts\Flash\FlashServiceProvider::class,
 
     ],
 
@@ -225,6 +234,11 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        'FontAwesome' => PendoNL\LaravelFontAwesome\Facade::class,
+        'Form'     => Collective\Html\FormFacade::class,
+        'HTML'     => Collective\Html\HtmlFacade::class,
+        'BootForm' => Watson\BootstrapForm\Facades\BootstrapForm::class,
 
     ],
 
